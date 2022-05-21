@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+
+header {
+	margin-bottom: 20px;
+}
+
+body {
+	width: 100%;
+	font-family: 'Nanum Gothic';
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+#wrap {
+	min-width: 1090px;
+	margin: 0 auto;
+}
+
+#wrap section {
+	width: 1090px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.wrapping {
+	position: relative;
+	width: 1090px;
+	margin: 0 auto;
+}
+
+.navbar-nav li a {
+	padding: 23px 15px;
+	margin: 0px 5px;
+}
+
+.pre-box {
+	position: relative;
+	float: left;
+	width: 500px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+#pre-left {
+	float: left;
+	width: 380px;
+}
+
+#pre-right {
+	float: right;
+	width: 80px;
+	white-space: nowrap;
+}
+
+header .logo {
+	float: left;
+	margin-right: 10px;
+}
+
+header .logo a {
+	float: left;
+	padding: 17px 0;
+}
+
+div {
+	overflow: hidden;
+}
+
+.container {
+	width: 1090px;
+	text-align: center;
+	margin-top: 100px
+}
+
+.container > .col-lg-4 {
+	width: 380px;
+	margin: 0 auto;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+}
+
+#map div {
+	overflow: visible;
+}
+
+#map>div>div>div>div {
+	text-align: center;
+}
+
+#map>div>div>div>div>div {
+	z-index: -1;
+	position: static;
+}
+
+#btn-box {
+	margin: 10px 0;
+}
+
+aside {
+	float: left;
+	width: 175px;
+	padding: 20px 0 0 14px;
+	margin-top: 40px;
+}
+
+aside h3 {
+	width: 120px;
+	padding-bottom: 25px;
+	border-bottom: 4px solid #000;
+	margin-bottom: 30px;
+	color: #111;
+}
+
+aside>ul>li {
+	margin-bottom: 15px;
+}
+
+#viewtb td {
+	border: 1px solid #dddddd;
+}
+
+#sub-content>h2 {
+	margin-bottom: 50px;
+}
+
+.pre-box a {
+	color: #000000;
+}
+
+#live-box {
+	width: 800px;
+	padding: 15px;
+	margin: 50px 20px 0 20px;
+	float: left;
+}
+
+#live-box img {
+	width: 100%;
+	height: 80%;
+}
+
+#live-box div {
+	float: left;
+	width: 355px;
+	height: 270px;
+	text-align: center;
+}
+
+#live-box>h2 {
+	margin-bottom: 50px;
+}
+
+#left_live {
+	margin: 0px 30px 40px 0;
+}
+
+#right_live {
+	margin: 0px 0 40px 30px;
+}
+
+#notice {
+	height: 650px;
+}
+
+h1 {
+	font-family: 'Hanna';
+}
+
+ul, li {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.wrapping .kbo-club {
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.wrapping .kbo-club ul {
+	display: table-row;
+	width: 100%;
+}
+
+.wrapping .kbo-club .club-list li {
+	list-style: none;
+	float: left;
+	padding: 8px;
+	border: 1px solid #bcbcbc;
+	text-align: center;
+	width: 20%;
+}
+
+.club-list img {
+	width: 50%;
+	height: 50%;
+}
+
+.footer {
+	background: #333ccc;
+	height: 150px;
+}
+
+#club-icon li {
+	width: 77px;
+	list-style: none;
+	float: left;
+	border: 1px solid #bcbcbc;
+	text-align: center;
+	list-style: none;
+}
+
+#club-icon img {
+	width: 100%;
+	height: 100%;
+}
+
+#contents {
+	overflow: hidden;
+	min-height: 800px;
+	padding: 20px;
+}
+
+#sub-content {
+	width: 800px;
+	padding: 15px;
+	margin: 50px 20px 0 20px;
+	float: left;
+}
