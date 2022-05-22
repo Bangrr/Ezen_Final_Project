@@ -8,6 +8,30 @@ header {
 	margin-bottom: 20px;
 }
 
+footer {
+	background: #333ccc;
+}
+
+footer > div > div {
+	padding: 15px;
+}
+
+footer h1 {
+	float: left;
+	margin-right: 30px;
+}
+
+footer li {
+	color: #ddd;
+	line-height: 1.4em;
+	margin-top: 8px;
+}
+
+#copyright {
+	border-top: 1px solid #ddd;
+	color: #ddd;
+}
+
 body {
 	width: 100%;
 	font-family: 'Nanum Gothic';
@@ -64,7 +88,7 @@ a {
 
 header .logo {
 	float: left;
-	margin-right: 10px;
+	margin: 0 15px;
 }
 
 header .logo a {
@@ -79,10 +103,10 @@ div {
 .container {
 	width: 1090px;
 	text-align: center;
-	margin-top: 100px
+	padding: 0px;
 }
 
-.container > .col-lg-4 {
+.container>.col-lg-4 {
 	width: 380px;
 	margin: 0 auto;
 }
@@ -164,11 +188,15 @@ aside>ul>li {
 }
 
 #left_live {
-	margin: 0px 30px 40px 0;
+	margin: 0px 30px 35px 0;
 }
 
 #right_live {
-	margin: 0px 0 40px 30px;
+	margin: 0px 0 35px 30px;
+}
+
+#left_live_2 {
+	margin: 0px 30px 0px 0;
 }
 
 #notice {
@@ -208,11 +236,6 @@ ul, li {
 .club-list img {
 	width: 50%;
 	height: 50%;
-}
-
-.footer {
-	background: #333ccc;
-	height: 150px;
 }
 
 #club-icon li {

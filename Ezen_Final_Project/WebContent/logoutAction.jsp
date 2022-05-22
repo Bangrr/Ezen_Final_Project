@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ page import="user.UserDAO" %>
+	pageEncoding="UTF-8"%>
+<%@ page import="user.UserDAO"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@
 </head>
 <body>
 	<%
-		session.invalidate();
+	session.invalidate();
 	%>
 	<script>
 		location.href = 'main.jsp'
